@@ -68,12 +68,12 @@
     text-align: center;
     text-decoration: none;
     color: $muted-text-color;
-    border: 1px solid mix(#000, $border-color, 25%);
+    border: 1px solid mix(#808080, $border-color, 25%);
     border-radius: $border-radius;
     
     .prev_next {
-      font-family: $cute;
-      color:#ffd861;
+      font-family: $sans-serif;
+      color:#808080;
         }
   }
 }
