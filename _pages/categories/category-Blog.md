@@ -1,6 +1,7 @@
 ---
 title: "Blog"
 layout: archive
+classes: wide <!-- 본문 늘리기!!!-->
 permalink: categories/Blog
 author_profile: true
 sidebar_main: true
