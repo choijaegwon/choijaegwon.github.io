@@ -529,6 +529,35 @@
   text-transform: none;
   border-bottom: 1px solid $border-color;
 }
+/*****************/
+
+.page__taxonomy-item-category {
+  display: inside;
+  margin-right: 5px;
+  margin-bottom: 8px;
+  padding: 1px 8px;
+  text-decoration: none;
+  border: 1px solid #373C3F;
+  border-radius: 4px;
+  background-color: #6d7275;
+  font-family: "Coming Soon",Georgia,Times,serif;
+  color: #ffc005;
+}
+
+.page__taxonomy-item-tag {
+  display: inside;
+  margin-right: 5px;
+  margin-bottom: 8px;
+  padding: 1px 8px;
+  text-decoration: none;
+  border: 1px solid #373C3F;
+  border-radius: 4px;
+  background-color: #4D5357;
+  font-family: "Coming Soon",Georgia,Times,serif;
+  color: #FFBF00;
+}
+
+/****************************/
 
 /*
      Table of contents navigation
