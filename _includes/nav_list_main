@@ -13,18 +13,28 @@
       </li>
 
       <li>
-        <!--span 태그로 카테고리들을 크게 분류 ex) Java/-->
+        <!--기본 양식
+         <span class="nav__sub-title">옆에 들어갈 큰 제목</span>
+            <ul> 
+                {% for category in site.categories %}
+                    {% if category[0] == "카테고리이름" %}
+                        <li><a href="/categories/카테고리이름" class="">그안에 들어갈 작은 제목({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        -->
+    
+        <!--------------------------------------분류 시작-------------------------------------------->
         <span class="nav__sub-title">Java</span><!--큰 카테고리-->
             <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
             <ul>
-                <!--Cpp 카테고리 글들을 모아둔 페이지인 /categories/cpp 주소의 글로 링크 연결-->
-                <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
                 {% for category in site.categories %}
                     {% if category[0] == "Java" %}
                         <li><a href="/categories/Java" class="">Java({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
+
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "SpringBoot" %}
@@ -32,17 +42,10 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+        <!--------------------------------------분류 끝-------------------------------------------->
 
-         <!--------------------------------------큰 카테고리-------------------------------------------->
-        <span class="nav__sub-title">Blog</span> <!--큰 카테고리-->
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Blog" %}
-                        <li><a href="/categories/Blog" class="">Blog({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-        <!--------------------------------------작은 카테고리-------------------------------------------->
+        <!--------------------------------------분류 시작-------------------------------------------->
+        <span class="nav__sub-title">Blog</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "SpringBoot" %}
@@ -50,7 +53,7 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-
+        <!--------------------------------------분류 끝-------------------------------------------->
 
 
         <span class="nav__sub-title">SpringBoot</span><!--큰 카테고리-->
