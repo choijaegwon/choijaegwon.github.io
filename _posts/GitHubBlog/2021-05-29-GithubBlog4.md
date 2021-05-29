@@ -4,8 +4,6 @@ title: "[Markdown] 마크다운 문법"
 categories:
   - GitHubBlog
 tags:
-  - Ruby
-  - Jekyll
   - Markdown
   - Visual Studio
   - Programming
