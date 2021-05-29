@@ -48,7 +48,8 @@ rbenv versions
 ~~~
 rbenv install -l
 ~~~
-그러면 아래와 같이 설치 가능한 Ruby의 버전들이 나온다.
+그러면 아래와 같이 설치 가능한 Ruby의 버전들이 나온다.  
+
 ![image](https://user-images.githubusercontent.com/68246962/120061746-935ff200-c099-11eb-958f-091923fde9f3.png)  
 2021년 05월 29일 기준으로 가장 최신 버전인 3.0.1를 선택해서 설치해보자.
 ~~~
