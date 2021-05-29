@@ -1,5 +1,5 @@
 ---
-title: "GitHub Pages란 무엇인가?"
+title: "github.io 블로그란 무엇인가?"
 
 categories:
   - GitHubBlog
