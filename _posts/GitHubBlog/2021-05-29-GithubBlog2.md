@@ -1,5 +1,5 @@
 ---
-title: "M1 Mac에서 github.io 블로그만들기"
+title: "M1 Mac에서 github.io 블로그 만들기"
 
 categories:
   - GitHubBlog

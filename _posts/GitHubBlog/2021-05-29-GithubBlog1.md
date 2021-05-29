@@ -1,5 +1,5 @@
 ---
-title: "(Mac) 맥북에서 GitHub Pages 준비하기"
+title: "M1 Mac에서 github.io 블로그 준비하기"
 
 categories:
   - GitHubBlog
