@@ -48,11 +48,11 @@
         <span class="nav__sub-title">Blog</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "SpringBoot" %}
-                        <li><a href="/categories/SpringBoot" class="">SpringBoot({{category[1].size}})</a></li>
+                    {% if category[0] == "GitHubBlog" %}
+                        <li><a href="/categories/GitHubBlog" class="">GitHubBlog({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
-            </ul>
+            </ul>    
         <!--------------------------------------분류 끝-------------------------------------------->
 
 
