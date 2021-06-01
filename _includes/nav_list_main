@@ -60,6 +60,17 @@
         <span class="nav__sub-title">코딩테스트</span><!--큰 카테고리-->
       </li>
 
+    <!--------------------------------------분류 시작-------------------------------------------->
+        <span class="nav__sub-title">Server</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "NaverCloudPlatform" %}
+                        <li><a href="/categories/NaverCloudPlatform" class="">NaverCloudPlatform({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>    
+    <!--------------------------------------분류 끝-------------------------------------------->  
+
 
 
 
