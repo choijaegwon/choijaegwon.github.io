@@ -118,7 +118,7 @@ url을 만들어주는데 이대로 가져다가 사용하면 된다.
 ~~~
 <img src="https://user-images.githubusercontent.com/68246962/120080118-5ffd8180-c0f2-11eb-8784-fc5a342c7226.png" width="250" height="100">
 ~~~
-<img src="https://user-images.githubusercontent.com/68246962/120080118-5ffd8180-c0f2-11eb-8784-fc5a342c7226.png" width="250" height="100">  
+<img src="https://user-images.githubusercontent.com/68246962/120080118-5ffd8180-c0f2-11eb-8784-fc5a342c7226.png" width="250" height="100">
 
 Html 태그로 처리해버리면, 이미지를 줄일 수 있다.
 ### 3. 이미지 삽입 후, `링크 걸기`
