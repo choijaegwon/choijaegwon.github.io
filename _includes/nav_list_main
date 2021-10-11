@@ -69,7 +69,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "UIkit" %}
-                        <li><a href="/categories/UIkit" class="">UIkit({{category[1].size}})</a></li>
+                        <li><a href="/categories/UIkit" class="">NaverCloudPlatform({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>    
