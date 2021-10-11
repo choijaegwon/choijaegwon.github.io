@@ -2,7 +2,7 @@
 title: "오토 레이아웃"
 
 categories:
-  - IOS
+  - UIkit
 tags:
   - IOS
   - UIkit
