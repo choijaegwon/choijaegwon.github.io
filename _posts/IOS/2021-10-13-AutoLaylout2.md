@@ -23,16 +23,6 @@ tags:
 ## IBAction란?
 스토리보드 상에 선언한 View 객체가 특정 이벤트가 발생했을 경우 호출되는 함수
 
-## init(coder: NSCoder)
-스토리보드에서 UIView를 만들 때 만들어지는 생성자  
-
-## init(frame: CGRect)
-코드로 뷰를 만들때 호출됨. 반드시 CGRect타입으로 프레임을 정해주고 UIVew를 생성
-~~~
-let rect = CGRect(x: 10,y: 10, wdith: 100, height: 100)
-let myView = UIView(frame: rect)
-~~~
-
 ## Nib이란?
 xml형태의 .xib이지만, 파일을 컴파일하면 .nib 파일이 된다.  
 
