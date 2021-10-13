@@ -1,32 +1,22 @@
 ---
-title: "오토 레이아웃2"
+title: "오토 레이아웃3(scrollview)"
 
 categories:
   - UIkit
 tags:
   - IOS
   - UIkit
+  - scrollview
 ---
 
-## UITableViewDelegate
-테이블 뷰에 대한 설정  
+## 스크롤뷰
+- 스크롤 가능한 컨텐트 뷰를 제공해야 스크롤 뷰가 제대로 작동
+## 컨텐트 레이아웃
+- 스크롤 가능한 사이즈
+## 프레임 레이아웃
+- 부모뷰와 관련있는 스크롤뷰의 사이즈
 
-## UITableViewDataSource
-소스를 집어 넣는것
-
-## numberOfRowsInSection
-테이블 뷰 셀의 갯수  
-
-## IBOutlet란?
-스토리보드상에 선언한 View 객체를 IB(Interface Builder)가 알아볼 수 있게 만드는 것(자바로치면 findViewById)
-
-## IBAction란?
-스토리보드 상에 선언한 View 객체가 특정 이벤트가 발생했을 경우 호출되는 함수
-
-## Nib이란?
-xml형태의 .xib이지만, 파일을 컴파일하면 .nib 파일이 된다.  
-
-확장자가 .xib란 스토리보드를 만들었으면 그걸 연결해야만 연동이 된다.
-
+- 컨텐트 레이아웃 크기를 설정해줘야한다.  
+- 스크롤 뷰 안에 들어가는 내용물과 탑, 바텀 앵커를 컨텐트 레이아웃의 바텀, 탑 앵커와 일치 시켜야한다.  
 
 
