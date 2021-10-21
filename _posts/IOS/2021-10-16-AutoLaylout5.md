@@ -5,7 +5,6 @@ categories:
   - UIkit
 tags:
   - IOS
-  - UIkit
   - programmatically
 ---
 ## 핵심

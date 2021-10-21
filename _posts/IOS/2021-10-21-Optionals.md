@@ -1,0 +1,27 @@
+---
+title: "기본 문법(Tuples)"
+
+categories:
+  - UIkit
+tags:
+  - IOS
+  - Swift
+  - Tuples
+---
+
+## Tuples(n짝, n쌍)
+~~~
+ex) var topTitle = ("메인화면", "mainIcon.png")
+~~~  
+이런식으로 이 메인화면이 이 아이콘을 무조건 써야할때이렇게 사용해야한다.  
+인덱스는 자동으로 잡힌다.  
+~~~
+ex) topTitle.0 -> "메인화면"  
+ex) topTitle.1 -> "mainIcon.png"  
+~~~  
+또는  
+~~~
+var httpError = (statusCode: 404, "not found")
+~~~  
+이처럼(statusCode) 404 앞에 설명을 써놓을수 도 있다.  
+또한, 사용할땐 httpError.statusCode라고 사용하면 404 가 나온다.(가독성이 높아짐)
