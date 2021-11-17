@@ -78,7 +78,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "IOSPassingData" %}
-                        <li><a href="/categories/IOSPassingData" class="">IOSPassingData({{category[1].size}})</a></li>
+                        <li><a href="/categories/IOSPassingData" class="">PassingData({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -94,7 +94,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "IOSSwiftUI" %}
-                        <li><a href="/categories/IOSSwiftUI" class="">IOSSwiftUI({{category[1].size}})</a></li>
+                        <li><a href="/categories/IOSSwiftUI" class="">SwiftUI({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
