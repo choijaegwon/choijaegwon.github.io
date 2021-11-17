@@ -2,7 +2,7 @@
 title: "오토 레이아웃3(constraint 우선순위)"
 
 categories:
-  - UIkit
+  - AutoLaylout
 tags:
   - IOS
   - constraint
