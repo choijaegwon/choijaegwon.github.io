@@ -76,7 +76,7 @@
             
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "SpringBoot" %}
+                    {% if category[0] == "AutoLaylout" %}
                         <li><a href="/categories/AutoLaylout" class="">AutoLaylout({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
