@@ -72,7 +72,15 @@
                         <li><a href="/categories/UIkit" class="">UIkit({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
-            </ul>    
+            </ul>
+            
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "SpringBoot" %}
+                        <li><a href="/categories/AutoLaylout" class="">AutoLaylout({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
         <!--------------------------------------분류 끝-------------------------------------------->
         <!--
             <span class="nav__sub-title">SpringBoot</span> 큰 카테고리
