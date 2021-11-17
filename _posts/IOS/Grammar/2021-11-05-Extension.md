@@ -1,8 +1,8 @@
 ---
-title: "기본 문법(Extension)"
+title: "Extension"
 
 categories:
-  - UIkit
+  - IOSGrammar
 tags:
   - IOS
   - Swift

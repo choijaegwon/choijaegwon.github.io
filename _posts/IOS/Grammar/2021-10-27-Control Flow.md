@@ -1,8 +1,8 @@
 ---
-title: "기본 문법(Control Flow)"
+title: "Control Flow"
 
 categories:
-  - UIkit
+  - IOSGrammar
 tags:
   - IOS
   - Swift

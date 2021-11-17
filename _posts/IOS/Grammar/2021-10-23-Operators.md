@@ -1,8 +1,8 @@
 ---
-title: "기본 문법(Operators)"
+title: "Operators"
 
 categories:
-  - UIkit
+  - IOSGrammar
 tags:
   - IOS
   - Swift

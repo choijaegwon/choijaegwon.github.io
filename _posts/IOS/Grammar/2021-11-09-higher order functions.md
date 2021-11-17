@@ -1,8 +1,8 @@
 ---
-title: "기본 문법(higher order functions)"
+title: "higher order functions"
 
 categories:
-  - UIkit
+  - IOSGrammar
 tags:
   - IOS
   - Swift

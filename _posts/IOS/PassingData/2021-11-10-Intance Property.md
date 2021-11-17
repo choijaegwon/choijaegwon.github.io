@@ -1,8 +1,8 @@
 ---
-title: "Passing data(Intance Property)"
+title: "Intance Property"
 
 categories:
-  - UIkit
+  - IOSPassingData
 tags:
   - IOS
   - Swift

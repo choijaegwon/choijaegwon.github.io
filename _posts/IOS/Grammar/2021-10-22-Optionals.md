@@ -1,8 +1,8 @@
 ---
-title: "기본 문법(Optionals)"
+title: "Optionals"
 
 categories:
-  - UIkit
+  - IOSGrammar
 tags:
   - IOS
   - Swift

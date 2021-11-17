@@ -1,8 +1,8 @@
 ---
-title: "기본 문법(Dictionary)"
+title: "Dictionary"
 
 categories:
-  - UIkit
+  - IOSGrammar
 tags:
   - IOS
   - Swift

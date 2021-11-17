@@ -66,18 +66,19 @@
         <!--------------------------------------분류 끝-------------------------------------------->
         <!--------------------------------------분류 시작-------------------------------------------->
         <span class="nav__sub-title">IOS</span>
-        <ul>
-            {% for category in site.categories %}
-                {% if category[0] == "IOSGrammar" %}
-                    <li><a href="/categories/IOSGrammar" class="">문법({{category[1].size}})</a></li>
-                {% endif %}
-            {% endfor %}
-        </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "IOSGrammar" %}
+                       <li><a href="/categories/IOSGrammar" class="">문법({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+           </ul>
+           
 
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "UIkit" %}
-                        <li><a href="/categories/UIkit" class="">UIkit({{category[1].size}})</a></li>
+                    {% if category[0] == "IOSPassingData" %}
+                        <li><a href="/categories/IOSPassingData" class="">IOSPassingData({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -86,6 +87,14 @@
                 {% for category in site.categories %}
                     {% if category[0] == "IOSAutoLaylout" %}
                         <li><a href="/categories/IOSAutoLaylout" class="">AutoLaylout({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "UIkit" %}
+                        <li><a href="/categories/UIkit" class="">UIkit({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>

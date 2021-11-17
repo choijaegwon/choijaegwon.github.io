@@ -1,8 +1,8 @@
 ---
-title: "기본 문법(Deinitializtion)"
+title: "Deinitializtion"
 
 categories:
-  - UIkit
+  - IOSGrammar
 tags:
   - IOS
   - Swift

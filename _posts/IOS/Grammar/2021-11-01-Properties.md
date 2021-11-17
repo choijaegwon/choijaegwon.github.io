@@ -1,8 +1,8 @@
 ---
-title: "기본 문법(Properties)"
+title: "Properties"
 
 categories:
-  - UIkit
+  - IOSGrammar
 tags:
   - IOS
   - Swift

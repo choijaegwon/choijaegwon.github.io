@@ -1,8 +1,8 @@
 ---
-title: "기본 문법(Inheritance)"
+title: "Inheritance"
 
 categories:
-  - UIkit
+  - IOSGrammar
 tags:
   - IOS
   - Swift
