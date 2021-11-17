@@ -1,8 +1,8 @@
 ---
-title: "Passing data(Notification)"
+title: "Notification"
 
 categories:
-  - UIkit
+  - IOSPassingData
 tags:
   - IOS
   - Swift
