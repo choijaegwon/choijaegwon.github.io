@@ -2,7 +2,7 @@
 title: "오토 레이아웃5(programmatically)"
 
 categories:
-  - AutoLaylout
+  - IOSAutoLaylout
 tags:
   - IOS
   - programmatically

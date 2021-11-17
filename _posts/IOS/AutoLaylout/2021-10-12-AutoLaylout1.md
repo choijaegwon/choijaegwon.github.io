@@ -2,7 +2,7 @@
 title: "오토 레이아웃2"
 
 categories:
-  - AutoLaylout
+  - IOSAutoLaylout
 tags:
   - IOS
 ---

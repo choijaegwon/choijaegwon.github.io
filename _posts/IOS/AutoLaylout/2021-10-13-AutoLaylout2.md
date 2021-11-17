@@ -2,7 +2,7 @@
 title: "오토 레이아웃3(scrollview)"
 
 categories:
-  - UIkit
+  - IOSAutoLaylout
 tags:
   - IOS
   - scrollview

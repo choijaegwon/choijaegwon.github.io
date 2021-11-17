@@ -2,7 +2,7 @@
 title: "오토 레이아웃4(stackview)"
 
 categories:
-  - AutoLaylout
+  - IOSAutoLaylout
 tags:
   - IOS
   - stackview

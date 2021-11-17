@@ -2,7 +2,7 @@
 title: "xcode13 ColorLiteral"
 
 categories:
-  - AutoLaylout
+  - IOSAutoLaylout
 tags:
   - IOS
   - ColorLiteral
