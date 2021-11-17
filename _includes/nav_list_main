@@ -66,6 +66,14 @@
         <!--------------------------------------분류 끝-------------------------------------------->
         <!--------------------------------------분류 시작-------------------------------------------->
         <span class="nav__sub-title">IOS</span>
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "IOSGrammar" %}
+                    <li><a href="/categories/IOSGrammar" class="">문법({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "UIkit" %}
