@@ -27,6 +27,15 @@
         <!--------------------------------------분류 시작-------------------------------------------->
         <span class="nav__sub-title">Java</span><!--큰 카테고리-->
             <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
+
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "JAVAGrammar" %}
+                       <li><a href="/categories/JAVAGrammar" class="">문법({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+           </ul>
+
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Java" %}
