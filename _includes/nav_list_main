@@ -112,6 +112,14 @@
             <span class="nav__sub-title">SpringBoot</span> 큰 카테고리
             <span class="nav__sub-title">코딩테스트</span> 큰 카테고리
         -->
+        <span class="nav__sub-title">정보처리기사</span><!--큰 카테고리-->
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "Engineer_Information_Processing" %}
+                    <li><a href="/categories/Engineer_Information_Processing" class="">정보처리기사실기({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
         <!--------------------------------------분류 시작-------------------------------------------->
         <span class="nav__sub-title">Front-End</span><!--큰 카테고리-->
             <ul>
