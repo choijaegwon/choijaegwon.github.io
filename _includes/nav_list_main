@@ -138,6 +138,14 @@
                 {% endfor %}
             </ul>
         <!--------------------------------------분류 끝-------------------------------------------->
+        <span class="nav__sub-title">포트폴리오</span><!--큰 카테고리-->
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "Portfolio" %}
+                    <li><a href="/categories/Portfolio" class="">Portfolio({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
       </li>
  
   </ul>
