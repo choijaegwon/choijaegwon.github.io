@@ -142,7 +142,14 @@
         <ul>
             {% for category in site.categories %}
                 {% if category[0] == "Portfolio" %}
-                    <li><a href="/categories/Portfolio" class="">Portfolio({{category[1].size}})</a></li>
+                    <li><a href="/categories/Portfolio" class="">졸업작품({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "SimpleResult" %}
+                    <li><a href="/categories/SimpleResult" class="">IOS간단한결과물({{category[1].size}})</a></li>
                 {% endif %}
             {% endfor %}
         </ul>
