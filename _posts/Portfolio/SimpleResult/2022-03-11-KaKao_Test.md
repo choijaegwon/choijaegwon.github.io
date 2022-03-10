@@ -33,6 +33,7 @@ let height = keyboardFrame.size.height - self.view.safeAreaInsets.bottom
 ~~~
 로 바꿔줘야지 키보드 와 textview사이에 빈 공백이 생기지 않는다.  
 
+
 참고글:<https://stackoverflow.com/questions/52466147/error-with-notification-names-while-converting-code-to-swift-4-2>  
 코드주소: <https://github.com/choijaegwon/IOSSimpleResult/tree/main/KaKao_Test>  
 출처: <https://www.inflearn.com/course/autolayout-ui_ios> 
