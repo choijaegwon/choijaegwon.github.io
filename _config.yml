@@ -96,7 +96,7 @@ analytics:
 author:
   name             : "푸른쿠우"
   avatar           : "/assets/images/setting/bio-photo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "공부하며 기록하는 블로그입니다."  "이전에 네이버블로그에도 기록해놓았습니다."
+  bio              : "공부하며 기록하는 블로그입니다."
   location         : "South Korea"
   email            : 
   links:
