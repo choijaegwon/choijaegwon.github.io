@@ -36,4 +36,4 @@ let height = keyboardFrame.size.height - self.view.safeAreaInsets.bottom
 
 참고글:<https://stackoverflow.com/questions/52466147/error-with-notification-names-while-converting-code-to-swift-4-2>  
 코드주소: <https://github.com/choijaegwon/IOSSimpleResult/tree/main/KaKao_Test>  
-출처: <https://www.inflearn.com/course/autolayout-ui_ios> 
+출처: <https://www.inflearn.com/course/autolayout-ui_ios>
