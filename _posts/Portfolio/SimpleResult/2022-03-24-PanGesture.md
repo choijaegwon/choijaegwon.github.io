@@ -11,4 +11,4 @@ tags:
 
  
 코드주소: <https://github.com/choijaegwon/IOSSimpleResult/tree/main/PanGesture>  
-출처: <https://www.inflearn.com/course/uikit-ios14/dashboard> 
+출처: <https://www.inflearn.com/course/uikit-ios14/dashboard>  
