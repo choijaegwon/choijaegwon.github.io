@@ -13,4 +13,4 @@ tags:
 <https://sleepyti.me>이란 웹사이트를 보면서 알람이 있었으면 좋겠다고 생각을 했다.  
 바로 시계로가는 기능을 추가하려고 하는데 일단. 간단한 기능부터해서 천천히 추가해 나갈 생각이다.  
 
-참고사이트: <https://jaemuyeo.github.io/ios/datePicker-dateFormatter> 
+참고사이트: <https://jaemuyeo.github.io/ios/datePicker-dateFormatter>  
