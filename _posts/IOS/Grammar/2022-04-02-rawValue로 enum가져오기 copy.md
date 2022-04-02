@@ -1,5 +1,4 @@
 ---
-published: true
 title: "rawValue로 enum가져오기"
 
 categories:
