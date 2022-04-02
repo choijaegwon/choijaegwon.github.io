@@ -282,6 +282,3 @@ defaults:
       related: false
       mathjax: true
       sidebar_main: true
-
-# 추가
-tutrue: true
