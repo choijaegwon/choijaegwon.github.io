@@ -22,7 +22,7 @@ hello
 ~~~
 
 ## Defining Functions
-- 파라미터는 생력할 수 있다.
+- 파라미터는 생략할 수 있다.
 
 ~~~
 func sayHello() {
