@@ -1,5 +1,6 @@
 ---
 title: Computed Property
+categories:
   - IOSGrammar
 tags:
   - IOS

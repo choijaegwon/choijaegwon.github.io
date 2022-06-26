@@ -1,5 +1,6 @@
 ---
 title: Dynamic Member Lookup
+categories:
   - IOSGrammar
 tags:
   - IOS

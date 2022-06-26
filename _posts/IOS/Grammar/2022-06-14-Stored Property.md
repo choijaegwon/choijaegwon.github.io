@@ -1,5 +1,6 @@
 ---
 title: Stored Property
+categories:
   - IOSGrammar
 tags:
   - IOS

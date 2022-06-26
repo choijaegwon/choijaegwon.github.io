@@ -1,5 +1,6 @@
 ---
 title: Instance Method
+categories:
   - IOSGrammar
 tags:
   - IOS

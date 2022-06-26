@@ -1,5 +1,6 @@
 ---
 title: Inheritance
+categories:
   - IOSGrammar
 tags:
   - IOS

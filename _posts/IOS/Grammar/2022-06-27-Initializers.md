@@ -1,5 +1,6 @@
 ---
 title: Initializers
+categories:
   - IOSGrammar
 tags:
   - IOS

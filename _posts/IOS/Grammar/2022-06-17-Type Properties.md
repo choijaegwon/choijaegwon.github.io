@@ -1,5 +1,6 @@
 ---
 title: Type Properties
+categories:
   - IOSGrammar
 tags:
   - IOS

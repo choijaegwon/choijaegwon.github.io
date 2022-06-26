@@ -1,5 +1,6 @@
 ---
 title: Type Method
+categories:
   - IOSGrammar
 tags:
   - IOS

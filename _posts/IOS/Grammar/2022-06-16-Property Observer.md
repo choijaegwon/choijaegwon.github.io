@@ -1,5 +1,6 @@
 ---
 title: Property Observer
+categories:
   - IOSGrammar
 tags:
   - IOS
