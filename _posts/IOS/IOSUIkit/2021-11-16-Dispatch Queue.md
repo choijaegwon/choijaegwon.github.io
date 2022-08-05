@@ -2,7 +2,7 @@
 title: "Dispatch Queue"
 
 categories:
-  - IOSSwiftUI
+  - IOSUIkit
 tags:
   - IOS
   - Swift

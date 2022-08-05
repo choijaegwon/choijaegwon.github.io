@@ -2,7 +2,7 @@
 title: "Settings App"
 
 categories:
-  - IOSSwiftUI
+  - IOSUIkit
 tags:
   - IOS
   - Swift

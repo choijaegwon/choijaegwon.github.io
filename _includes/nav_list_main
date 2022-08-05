@@ -110,8 +110,8 @@
 
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "IOSSwiftUI" %}
-                        <li><a href="/categories/IOSSwiftUI" class="">SwiftUI({{category[1].size}})</a></li>
+                    {% if category[0] == "IOSUIkit" %}
+                        <li><a href="/categories/IOSUIkit" class="">IOSUIkit({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
