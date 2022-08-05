@@ -1,5 +1,5 @@
 ---
-title: Nil-Coalescing Operator
+title: Optional Chaining
 
 categories:
   - IOSGrammar
@@ -8,35 +8,40 @@ tags:
   - Swift
 ---
 
-# Nil-Coalescing Operator
+# Optional Chaining
 
+Contacts구조체는 이메일과 주소를 저장하고, Person구조체는 이름과 주소정보를 저장한다.  
+그리고 안에서 초기화를 시켜준다.  
 ~~~
-var msg = ""
-var input: String? = "Swift"
-
-if let inputName = input {
-  msg = "Hello, " + inputName
-} else {
-  msg = "Hello, Stranger"
+struct Contacts {
+  var email: [String: String]
+  var address: String
 }
 
-print(msg) // "Hello,Swift"
-~~~
-조건 연산자를 사용해서 좀 더 단순하게 구현해보면,
-~~~
-var msg = ""
-var input: String? = "Swift"
+struct Person {
+  var name: String
+  var contacts: Contacts
 
-var str = "Hello, " + (input != nil ? input! : "Stranger")
-print(str)
-~~~
-input값이 있으면 "Swift"를 출력하고 없으면 "Stranger"를 출력하게되지만, 너무 복잡해 보인다. 
-하지만 Nil-Coalescing Operator를 사용하면 쉽게 사용이 가능하다
-~~~
-var input: String? = "Swift"
+  init(name: String, email: String) {
+    self.name = name
+    contacts = Contacts(eamil.: ["home": email], address: "Seoul")
+  }
+}
 
-str = "Hello, " + (input ?? "Stranger")
-print(str)
+var p = Person(name: "James", email: "swift@example.com")
+let a = p.contacts.address
+
+var optionalP: Person? = Person(name: "James", email: "swift@example.com")
+let b = optionalP.contacts.address // -> error발생
 ~~~
-input에 값이 있는지 확인한다. 값이 있으면 언매핑하고 그값을 주고, 
-값이 없으면 "Stranger"이 나온다.
+error가 발생하는 이유는 무엇일까?
+~~~
+let b = optionalP.contacts.address // -> error발생
+~~~
+이 코드를 보면, 언매핑을 해야한다. 따라서 
+~~~
+let b = optionalP?.contacts.address // -> error해결
+~~~
+이렇게 언매핑을 해줘야한다.
+
+코드에 하나라도 Optional이 있으면 그 코드는 Optional타입이 되어버린다.   
