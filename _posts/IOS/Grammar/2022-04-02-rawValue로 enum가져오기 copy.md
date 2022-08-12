@@ -33,7 +33,7 @@ case .dog:
 case .cat:
     print("고양이 입니다")
 default:
-    print("알수없음")
+    print("알수없음") 
 }
 ~~~  
 
