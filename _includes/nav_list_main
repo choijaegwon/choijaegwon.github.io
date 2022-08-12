@@ -107,11 +107,19 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-
+            
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "IOSUIkit" %}
                         <li><a href="/categories/IOSUIkit" class="">IOSUIkit({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "IOSInterview" %}
+                        <li><a href="/categories/IOSInterview" class="">면접질문정리({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
