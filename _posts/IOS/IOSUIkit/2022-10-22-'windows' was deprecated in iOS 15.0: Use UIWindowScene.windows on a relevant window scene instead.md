@@ -1,25 +1,28 @@
 ---
-title: " 'windows' was deprecated in iOS 15.0: Use UIWindowScene.windows on a relevant window scene instead "
+title: "swift windows' was deprecated in iOS 15.0: Use UIWindowScene.windows on a relevant window scene instead"
 
 categories:
   - IOSUIkit
 tags:
   - IOS
   - Swift
-  - Dispatch Queue
+  - window
 ---
 
-# 'windows' was deprecated in iOS 15.0: Use UIWindowScene.windows on a relevant window scene instead
-오류 해결하기
+# 'windows' was deprecated in iOS 15.0: Use UIWindowScene.windows on a relevant window scene instead 오류 해결하기
+
+개발을 하면서
 ~~~
-guard let window = UIApplication.shared.windows.first(whrer: { $0.isKeyWindow }) else { return }
-guard let (사용할변수) = window.rootViewController as? MainTabController else { return }
+guard let window = UIApplication.shared.windows.first(where: { $0.isKeyWindow }) else { return }
 ~~~
-를
+이러한 window에 관한 코드를 작성하는데 
+~~~
+windows' was deprecated in iOS 15.0: Use UIWindowScene.windows on a relevant window scene instead
+~~~
+이런 경고 표시 창이 떴다면,
 ~~~
 let scenes = UIApplication.shared.connectedScenes
 let windowScene = scenes.first as? UIWindowScene
 guard let window = windowScene?.windows.first(where: { $0.isKeyWindow }) else { return }
-guard let (사용할변수) = window.rootViewController as? MainTabController else { return }
 ~~~
-로 바꾸어 사용할 수 있다.
+코드를 이렇게 바꿔서 작성해주면 된다.
