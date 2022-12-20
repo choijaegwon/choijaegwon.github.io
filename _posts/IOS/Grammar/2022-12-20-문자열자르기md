@@ -1,0 +1,26 @@
+---
+title: "문자열자르기"
+
+categories:
+  - IOSGrammar
+tags:
+  - IOS
+  - Swift
+---
+
+# 문자열자르기
+
+프로젝트를 진행하면서 String으로된 date값이 있는데,  
+뒤에 일만 필요해서 ex) 20221220 이면 '20'만 필요  
+자르는 코드를 가져왔다.
+
+~~~
+let date = 20221220
+let day = date[date.index(date.endIndex, offsetBy: -2)...]
+print(day)
+~~~
+출력
+~~~
+20
+~~~
+이렇게 작성해주면, '일'만 뽑을 수 있다.
