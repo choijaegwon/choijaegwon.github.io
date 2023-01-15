@@ -6,6 +6,7 @@ categories:
 tags:
   - IOS
   - Swift
+  - RxSwift
 ---
 
 # RxGesture란?
