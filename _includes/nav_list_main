@@ -85,6 +85,14 @@
 
            <ul>
             {% for category in site.categories %}
+                {% if category[0] == "IOSGrammar" %}
+                   <li><a href="/categories/Algorithm" class="">알고리즘({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+            </ul>
+
+           <ul>
+            {% for category in site.categories %}
                 {% if category[0] == "IOSBlog" %}
                    <li><a href="/categories/IOSBlog" class="">개발시 참고하면 좋은 블로그({{category[1].size}})</a></li>
                 {% endif %}
