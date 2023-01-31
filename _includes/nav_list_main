@@ -126,6 +126,14 @@
 
             <ul>
                 {% for category in site.categories %}
+                    {% if category[0] == "SwiftUI" %}
+                        <li><a href="/categories/SwiftUI" class="">SwiftUI({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
+            <ul>
+                {% for category in site.categories %}
                     {% if category[0] == "IOSInterview" %}
                         <li><a href="/categories/IOSInterview" class="">면접질문정리({{category[1].size}})</a></li>
                     {% endif %}
