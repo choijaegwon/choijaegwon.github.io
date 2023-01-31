@@ -2,7 +2,7 @@
 title: "Clean Architecture간단한 특징들"
 
 categories:
-  - IOSUIkit
+  - IOSInterview
 tags:
   - IOS
   - Swift

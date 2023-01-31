@@ -2,7 +2,7 @@
 title: "staticAndclass 메서드"
 
 categories:
-  - IOSUIkit
+  - IOSGrammar
 tags:
   - IOS
   - Swift

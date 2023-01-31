@@ -2,7 +2,7 @@
 title: "싱글톤 패턴(Singleton Pattern)2"
 
 categories:
-  - IOSUIkit
+  - IOSGrammar
 tags:
   - IOS
   - Swift
